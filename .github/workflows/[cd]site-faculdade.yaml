@@ -3,7 +3,8 @@ run-name: Deploy do App
 
 on:
     push:
-        - main
+        branches:
+            - main
 
 jobs: 
     deploy:
